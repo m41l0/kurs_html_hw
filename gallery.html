@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Галерея изображений</title>
+    <style>
+        .container {
+            width: 900px;
+            margin: 0 auto;
+        }
+        figure {
+            display: block;
+            float: left;
+            width: 150px;
+            margin: 0 20px 20px 0;
+            padding: 20px;
+            background: #7a7a7a;
+            text-align: center;
+        }
+        figcaption {
+            color: #fff; /* Цвет текста */
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <header><h1>Галерея изображений</h1></header>
+    <hr>
+    <nav>
+        <a href="index.html">Вернуться на главную</a>
+        <ul>
+            <li><p><a href="articles.html">Статьи</a></p></li>
+            <li><p><a href="catalog.html">Каталог</a></p></li>
+            <li><p><a href="gallery.html"><b><i>ГАЛЕРЕЯ<br>ИЗОБРАЖЕНИЙ</i></b></a></p></li>
+            <li><p><a href="registration.html">Регистрация</a></p></li>
+            <li><p><a href="contacts.html">Контакты</a></p></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <figure>
+            <p><a href="img/planet-earth.jpeg" target="_blank"><img src="img/planet-earth.jpeg" alt="JPEG" width="150" height="150"></a></p>
+            <figcaption>JPEG</figcaption>
+        </figure>
+        <figure>
+            <p><a href="img/sun.gif" target="_blank"><img src="img/sun.gif" alt="GIFF" width="150" height="150"></a></p>
+            <figcaption>GIFF</figcaption>
+        </figure>
+        <figure>
+            <p><a href="img/gasgiant.png" target="_blank"><img src="img/gasgiant.png" alt="PNG" width="150" height="150"></a></p>
+            <figcaption>PNG</figcaption>
+        </figure>
+        <div class="clear"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <footer>&copy; Максим Логинов</footer>
+</div>
+</body>
+</html>
