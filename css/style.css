@@ -146,7 +146,7 @@ figure a img:hover {
 }
                 /*----GALLERY END----*/
 
-                /*----FROMS BEGIN----*/
+                /*----FORMS BEGIN----*/
 
 input[type="text"] {
     width: 150px;
@@ -166,7 +166,7 @@ button[type="reset"]:active {
      background-color: darkred;
      color: black;
  }
-                /*----FROMS END----*/
+                /*----FORMS END----*/
 
 
 
