@@ -151,6 +151,9 @@ figure a img:hover {
 input[type="text"] {
     width: 150px;
 }
+input[type="text"] {
+    text-transform: capitalize;
+}
 input[type="password"] {
     width: 250px;
 }
@@ -166,6 +169,10 @@ button[type="reset"]:active {
      background-color: darkred;
      color: black;
  }
+input[type="radio"]+label:hover,[type="checkbox"]+label:hover {
+    border: 2px dotted #F44336;
+}
+
                 /*----FORMS END----*/
 
 
