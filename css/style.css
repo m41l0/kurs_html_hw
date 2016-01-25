@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Tuffy";
+    src: url("../fonts/Tuffy_Bold.otf");
+}
 body {
     margin: 0;
     padding: 0;
@@ -25,7 +29,7 @@ header h1 {
     margin: 0;
     line-height: 149px;
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: "Verdana", sans-serif;
     font-size: 70px;
     color: #F44336;
 }
@@ -40,6 +44,7 @@ nav {
     height: 700px;
     background-color: #876053;
     border-right: 1px solid black;
+    font-family: "Tuffy", sans-serif;
 }
 nav ul {
     margin: 0;
@@ -51,15 +56,14 @@ nav li a {
     padding: 10px 0 10px 25px;
     text-decoration: none;
     color: black;
-    /*text-align: center;*/
 }
 nav li a.active {
     background-color: #F44336;
-    color: white;
+    color: #CDDC39;
 }
 nav li a:hover:not(.active) {
     background-color: #68493B;
-    color: white;
+    color: limegreen;
 }
                 /*----MENU END----*/
 
@@ -88,7 +92,7 @@ article h2 {
     border-bottom: 1px solid black;
 }
 h2 a {
-    font-family: Verdana, sans-serif;
+    font-family: "Verdana", sans-serif;
     font-size: 34px;
     color: brown;
     text-decoration: none;
@@ -98,7 +102,7 @@ h2 a {
     font-style: italic;
     font-weight: bold;
     font-size: 30px;
-    font-family: "Courier New", serif;
+    font-family: "Verdana", sans-serif;
 }
 article p>a:hover {
     text-decoration: none;
