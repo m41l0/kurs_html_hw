@@ -43,18 +43,18 @@ nav ul {
     padding: 0;
     list-style: none;
 }
-li a {
+nav li a {
     display: block;
     padding: 10px 0 10px 25px;
     text-decoration: none;
     color: black;
     /*text-align: center;*/
 }
-li a.active {
+nav li a.active {
     background-color: #F44336;
     color: white;
 }
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
     background-color: #68493B;
     color: white;
 }
@@ -175,11 +175,35 @@ input[type="radio"]+label:hover,[type="checkbox"]+label:hover {
 
                 /*----FORMS END----*/
 
-
-
-
 footer {
     height: 49px;
     background-color: #876053;
     border-top: 1px solid black;
+    text-align: center;
+    line-height: 49px;
+}
+div .center {
+    text-align: center;
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ul.pagination li a.active {
+    background-color: #4153af;
+    color: #ff9234;
+}
+ul.pagination li a:hover:not(.active) {
+    background-color: #ddd;
 }
