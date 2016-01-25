@@ -2,46 +2,43 @@ body {
     margin: 0;
     padding: 0;
     background-color: #eeeeee;
+    overflow-y: scroll;
 }
 .container {
     width: 1200px;
-    min-height: 900px;
-    /*height: 900px;*/
-    height: 100%;
     margin: 0 auto;
     background-color: burlywood;
 }
 header {
     margin: 0;
-    min-height: 149px;
-    /*height: 149px;*/
-    height: 20%;
+    height: 149px;
     background-color: #876053;
-    background-image: url("../img/irish-red-setter-logo4.png");
+    background-image: url("../img/irish-red-setter-logo3.png");
     background-repeat: no-repeat;
     background-position: top right;
     border-bottom: 1px solid black;
 }
 header h1 {
     margin: 0;
-    /*line-height: 150px;*/
-    line-height: 100%;
+    line-height: 149px;
     text-align: center;
     font-family: Verdana, sans-serif;
     font-size: 70px;
     color: #F44336;
 }
+.table {
+    display: table;
+}
                 /*----MENU BEGIN----*/
-.container nav {
-    float: left;
+nav {
+    display: table-cell;
+    vertical-align: top;
     width: 199px;
-    /*min-height: 100%;*/
-    /*height: 700px;*/
-    height: inherit;
+    height: 700px;
     background-color: #876053;
     border-right: 1px solid black;
 }
-ul {
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -53,16 +50,17 @@ li a {
     color: black;
     /*text-align: center;*/
 }
-li a:hover:not(.active) {
-    background-color: #68493B;
-    color: white;
-}
 li a.active {
     background-color: #F44336;
     color: white;
 }
+li a:hover:not(.active) {
+    background-color: #68493B;
+    color: white;
+}
                 /*----MENU END----*/
-h2 {
+article h2 {
+    margin: 0;
     text-align: center;
     border-bottom: 1px solid black;
 }
@@ -72,22 +70,28 @@ h2 a {
     color: brown;
     text-decoration: none;
 }
+.first-letter p:first-letter {
+    color: darkgreen;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Courier New", serif;
+}
 article p>a:hover {
     text-decoration: none;
     color: green;
 }
 article>p {
+    padding: 5px;
     background-color: #f5cd9d;
 }
 article>a {
     color: gray;
 }
 main {
-    /*display: block;*/
-    float: left;
+    display: table-cell;
     width: 950px;
-    height: 700px;
-    padding: 0 25px;
+    padding: 25px;
 }
 .col-left {
     float: left;
@@ -98,9 +102,76 @@ main {
     width: 450px;
 }
 
+                /*----CATALOG BEGIN----*/
+main ul>li {
+    width: 300px;
+    background-color: #68bb84;
+    font-size: 24px;
+    list-style-image: url("../img/icons/marker-clover.png");
+}
+main ul>li>ul>li {
+    width: 220px;
+    background-color: #ddb3c4;
+    font-size: 18px;
+    list-style-image: url("../img/icons/marker-rose.png");
+    border-bottom: 1px solid darkolivegreen;
+}
+.new_item {
+    background-image: url("../img/icons/new_1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+                /*----CATALOG END----*/
+
+                /*----GALLERY BEGIN----*/
+.gallery-bg {
+    background-image: url("../img/square.png");
+}
+figure {
+    display: block;
+    /*float: left;*/
+    margin: 0 350px;
+    padding: 10px;
+    /*background: #7a7a7a;*/
+    /*text-align: center;*/
+}
+/*figcaption {
+    color: #fff; !* Цвет текста *!
+}*/
+figure img {
+    border: 15px solid #68493B;
+}
+figure a img:hover {
+    border: 15px solid transparent;
+}
+                /*----GALLERY END----*/
+
+                /*----FROMS BEGIN----*/
+
+input[type="text"] {
+    width: 150px;
+}
+input[type="password"] {
+    width: 250px;
+}
+input[type="email"]:focus {
+    color: #F44336;
+    background-color: black;
+}
+button[type="submit"]:active {
+    background-color: navy;
+    color: white;
+}
+button[type="reset"]:active {
+     background-color: darkred;
+     color: black;
+ }
+                /*----FROMS END----*/
+
+
+
 
 footer {
-    clear: both;
     height: 49px;
     background-color: #876053;
     border-top: 1px solid black;

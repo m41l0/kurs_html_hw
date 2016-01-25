@@ -4,31 +4,11 @@
     <meta charset="utf-8">
     <title>Галерея изображений</title>
     <link rel="stylesheet" href="css/style.css">
-<!--    <style>
-        .container {
-            width: 900px;
-            margin: 0 auto;
-        }
-        figure {
-            display: block;
-            float: left;
-            width: 150px;
-            margin: 0 20px 20px 0;
-            padding: 20px;
-            background: #7a7a7a;
-            text-align: center;
-        }
-        figcaption {
-            color: #fff; /* Цвет текста */
-        }
-        .clear {
-            clear: both;
-        }
-    </style>-->
 </head>
 <body>
 <div class="container">
     <header><h1>RED IRISH SETTER</h1></header>
+    <div class="table">
     <nav>
         <ul>
             <li><a href="index.html">Вернуться на главную</a></li>
@@ -39,22 +19,20 @@
             <li><a href="contacts.html">Контакты</a></li>
         </ul>
     </nav>
-    <div class="container">
-        <main>
-            <figure>
-                <p><a href="img/planet-earth.jpeg" target="_blank"><img src="img/planet-earth.jpeg" alt="JPEG" width="150" height="150"></a></p>
-                <figcaption>JPEG</figcaption>
-            </figure>
-            <figure>
-                <p><a href="img/sun.gif" target="_blank"><img src="img/sun.gif" alt="GIF" width="150" height="150"></a></p>
-                <figcaption>GIF</figcaption>
-            </figure>
-            <figure>
-                <p><a href="img/gasgiant.png" target="_blank"><img src="img/gasgiant.png" alt="PNG" width="150" height="150"></a></p>
-                <figcaption>PNG</figcaption>
-            </figure>
-            <div class="clear"></div>
-        </main>
+    <main class="gallery-bg">
+        <figure>
+            <a href="img/thumbs/thumb-elvis00.jpg" target="_blank"><img src="img/Elvis00.jpg" alt="Элвис нашел камень" width="205px" height="154px"></a>
+            <!--<figcaption>Элвис нашел камень</figcaption>-->
+        </figure>
+        <figure>
+            <a href="img/thumbs/thumb-elvis01.jpg" target="_blank"><img src="img/Elvis01.jpg" alt="Элвис грустит" width="205px" height="154px"></a>
+            <!--<figcaption>Элвис грустит</figcaption>-->
+        </figure>
+        <figure>
+            <a href="img/thumbs/thumb-elvis02.jpg" target="_blank"><img src="img/Elvis02.jpg" alt="Элвис в профиль" width="205px" height="154px"></a>
+            <!--<figcaption>Элвис в профиль</figcaption>-->
+        </figure>
+    </main>
     </div>
     <footer>&copy; Максим Логинов</footer>
 </div>
