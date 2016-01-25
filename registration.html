@@ -8,64 +8,66 @@
 <body>
 <div class="container">
     <header><h1>RED IRISH SETTER</h1></header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Вернуться на главную</a></li>
-            <li><a href="articles.html">Статьи</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="gallery.html">Галерея изображений</a></li>
-            <li><a href="registration.html" class="active">Регистрация</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h2>Заполните форму регистрации:</h2>
-        <form name="registration" id="registration" action="#" method="post">
-            <p><b><label for="username">Имя:</label></b>
-            <input type="text" name="username" id="username" size="40" required></p>
+    <div class="table">
+        <nav>
+            <ul>
+                <li><a href="index.html">Вернуться на главную</a></li>
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="gallery.html">Галерея изображений</a></li>
+                <li><a href="registration.html" class="active">Регистрация</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Заполните форму регистрации:</h2>
+            <form name="registration" id="registration" action="#" method="post">
+                <p><b><label for="username">Имя:</label></b>
+                <input type="text" name="username" id="username" size="40" required></p>
 
-            <p><b><label for="patronymic">Отчество:</label></b>
-            <input type="text" name="patronymic" id="patronymic" size="60"></p>
+                <p><b><label for="patronymic">Отчество:</label></b>
+                <input type="text" name="patronymic" id="patronymic" size="60"></p>
 
-            <p><b><label for="lastname">Фамилия:</label></b>
-            <input type="text" name="lastname" id="lastname" size="60"></p>
+                <p><b><label for="lastname">Фамилия:</label></b>
+                <input type="text" name="lastname" id="lastname" size="60"></p>
 
-            <p><b><label for="photo">Добавьте фотографию:</label></b>
-            <input type="file" accept="image/jpeg,image/png,image/gif" name="photo" id="photo" title="jpeg, png или gif"></p>
+                <p><b><label for="photo">Добавьте фотографию:</label></b>
+                <input type="file" accept="image/jpeg,image/png,image/gif" name="photo" id="photo" title="jpeg, png или gif"></p>
 
-            <p><b><label for="email">Адрес электронной почты:</label></b>
-            <input type="email" name="email" id="email" size="40"></p>
+                <p><b><label for="email">Адрес электронной почты:</label></b>
+                <input type="email" name="email" id="email" size="40"></p>
 
-            <p><b><label for="password">Пароль:</label></b>
-            <input type="password" name="password" id="password" size="40" pattern="[A-Za-z]{6,}" placeholder="Не менее шести латинских букв" required></p>
+                <p><b><label for="password">Пароль:</label></b>
+                <input type="password" name="password" id="password" size="40" pattern="[A-Za-z]{6,}" placeholder="Не менее шести латинских букв" required></p>
 
-            <p><b><label for="website">Адрес сайта:</label></b>
-            <input type="url" name="website" id="website" size="60" value="http://"></p>
+                <p><b><label for="website">Адрес сайта:</label></b>
+                <input type="url" name="website" id="website" size="60" value="http://"></p>
 
-            <p><b>Ваш пол:</b><br>
-            <input type="radio" name="sex" id="male" value="male"><label for="male">Мужик</label><br>
-            <input type="radio" name="sex" id="female" value="female"><label for="female">Женщина</label></p>
+                <p><b>Ваш пол:</b><br>
+                <input type="radio" name="sex" id="male" value="male"><label for="male">Мужик</label><br>
+                <input type="radio" name="sex" id="female" value="female"><label for="female">Женщина</label></p>
 
-            <p><b><label for="dob">Выберите дату рождения:</label></b><br>
-            <input type="date" name="dob" id="dob"></p>
+                <p><b><label for="dob">Выберите дату рождения:</label></b><br>
+                <input type="date" name="dob" id="dob"></p>
 
-            <p><b>Какими видами спорта занимаетесь:</b><br>
-            <input type="checkbox" name="sport" id="football" value="football"><label for="football">Футбол</label><br>
-            <input type="checkbox" name="sport" id="hockey" value="hockey"><label for="hockey">Хоккей</label><br>
-            <input type="checkbox" name="sport" id="busketball" value="busketball"><label for="busketball">Баскетбол</label><br>
-            <input type="checkbox" name="sport" id="tennis" value="tennis"><label for="tennis">Теннис</label><br>
-            <input type="radio" name="sport" id="run" value="run"><label for="run">Бег</label><br>
-            <input type="radio" name="sport" id="swim" value="swim"><label for="swim">Плавание</label><br>
-            <input type="radio" name="sport" id="tree" value="tree"><label for="tree">Лазание по деревьям</label><br>
-            </p>
+                <p><b>Какими видами спорта занимаетесь:</b><br>
+                <input type="checkbox" name="sport" id="football" value="football"><label for="football">Футбол</label><br>
+                <input type="checkbox" name="sport" id="hockey" value="hockey"><label for="hockey">Хоккей</label><br>
+                <input type="checkbox" name="sport" id="busketball" value="busketball"><label for="busketball">Баскетбол</label><br>
+                <input type="checkbox" name="sport" id="tennis" value="tennis"><label for="tennis">Теннис</label><br>
+                <input type="radio" name="sport" id="run" value="run"><label for="run">Бег</label><br>
+                <input type="radio" name="sport" id="swim" value="swim"><label for="swim">Плавание</label><br>
+                <input type="radio" name="sport" id="tree" value="tree"><label for="tree">Лазание по деревьям</label><br>
+                </p>
 
-            <p><b><label for="about">О себе:</label></b><br>
-            <textarea name="about" cols="40" rows="3" id="about"></textarea><br>
+                <p><b><label for="about">О себе:</label></b><br>
+                <textarea name="about" cols="40" rows="3" id="about"></textarea><br>
 
-            <button type="submit" form="registration">Регистрация</button>
-            <button type="reset">Сбросить форму</button>
-        </form>
-    </main>
+                <button type="submit" form="registration">Регистрация</button>
+                <button type="reset">Сбросить форму</button>
+            </form>
+        </main>
+    </div>
     <footer>&copy; Максим Логинов</footer>
 </div>
 </body>

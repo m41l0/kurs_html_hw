@@ -59,6 +59,22 @@ nav li a:hover:not(.active) {
     color: white;
 }
                 /*----MENU END----*/
+
+main {
+    display: table-cell;
+    width: 950px;
+    padding: 25px;
+}
+.col-left {
+    float: left;
+    width: 450px;
+}
+.col-right {
+    float: right;
+    width: 450px;
+}
+
+
 article h2 {
     margin: 0;
     text-align: center;
@@ -88,19 +104,7 @@ article>p {
 article>a {
     color: gray;
 }
-main {
-    display: table-cell;
-    width: 950px;
-    padding: 25px;
-}
-.col-left {
-    float: left;
-    width: 450px;
-}
-.col-right {
-    float: right;
-    width: 450px;
-}
+
 
                 /*----CATALOG BEGIN----*/
 main ul>li {
