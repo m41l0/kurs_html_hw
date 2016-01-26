@@ -19,10 +19,7 @@ body {
 header {
     margin: 0;
     height: 149px;
-    background-color: #876053;
-    background-image: url("../img/irish-red-setter-logo3.png");
-    background-repeat: no-repeat;
-    background-position: top right;
+    background: #876053 url("../img/irish-red-setter-logo3.png") no-repeat top right;
     border-bottom: 1px solid black;
 }
 header h1 {
@@ -133,9 +130,7 @@ main ul>li>ul>li {
     border-bottom: 1px solid darkolivegreen;
 }
 .new_item {
-    background-image: url("../img/icons/new_1.png");
-    background-repeat: no-repeat;
-    background-position: right;
+    background: url("../img/icons/new_1.png") no-repeat right;
 }
                 /*----CATALOG END----*/
 
