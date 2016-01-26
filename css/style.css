@@ -24,10 +24,8 @@ header {
 }
 header h1 {
     margin: 0;
-    line-height: 149px;
     text-align: center;
-    font-family: "Verdana", sans-serif;
-    font-size: 70px;
+    font: bold 70px/149px Verdana, serif;
     color: #F44336;
 }
 
@@ -89,17 +87,13 @@ article h2 {
     border-bottom: 1px solid black;
 }
 h2 a {
-    font-family: "Verdana", sans-serif;
-    font-size: 34px;
+    font: bold 34px Verdana, sans-serif;
     color: brown;
     text-decoration: none;
 }
 .first-letter p:first-letter {
     color: darkgreen;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: "Verdana", sans-serif;
+    font: bold italic 30px Verdana, sans-serif;
 }
 article p>a:hover {
     text-decoration: none;
@@ -119,13 +113,13 @@ article>a {
 main ul>li {
     width: 300px;
     background-color: #68bb84;
-    font-size: 24px;
+    font: bold 24px Georgia, serif;
     list-style-image: url("../img/icons/marker-clover.png");
 }
 main ul>li>ul>li {
     width: 220px;
     background-color: #ddb3c4;
-    font-size: 18px;
+    font: italic 18px Georgia, serif;
     list-style-image: url("../img/icons/marker-rose.png");
     border-bottom: 1px solid darkolivegreen;
 }
