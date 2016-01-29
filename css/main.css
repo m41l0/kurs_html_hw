@@ -1,0 +1,206 @@
+@font-face {
+    font-family: "Tuffy";
+    src: url("../fonts/Tuffy_Bold.otf");
+}
+
+.main-wrapper {
+    background: #eeeeee;
+}
+
+                /*----HEADER BEGIN----*/
+
+.header-main .inner {
+    background: #876053 url("../img/irish-red-setter-logo3.png") no-repeat top right;
+    border-bottom: 1px solid black;
+}
+
+.header-main h1 {
+    margin: 0;
+    text-align: center;
+    font: bold 70px/149px Verdana, serif;
+    color: #F44336;
+}
+                /*----HEADER END----*/
+
+                /*----MENU BEGIN----*/
+
+nav.left-menu {
+    /*vertical-align: top;*/
+    background-color: #876053;
+    border-right: 1px solid black;
+    font-family: "Tuffy", sans-serif;
+}
+
+nav.left-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav.left-menu li a {
+    display: block;
+    padding: 10px 0 10px 25px;
+    text-decoration: none;
+    color: black;
+}
+
+nav.left-menu li a.active {
+    background-color: #F44336;
+    color: #CDDC39;
+}
+
+nav.left-menu li a:hover:not(.active) {
+    background-color: #68493B;
+    color: limegreen;
+}
+                /*----MENU END----*/
+
+/*main {*/
+    /*width: 950px;*/
+    /*padding: 25px;*/
+/*}*/
+
+                /*----ARTICLES BEGIN----*/
+
+.col-left {
+    float: left;
+    width: 450px;
+}
+.col-right {
+    float: right;
+    width: 450px;
+}
+article h2 {
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+h2 a {
+    font: bold 34px Verdana, sans-serif;
+    color: brown;
+    text-decoration: none;
+}
+.first-letter p:first-letter {
+    color: darkgreen;
+    font: bold italic 30px Verdana, sans-serif;
+}
+article p>a:hover {
+    text-decoration: none;
+    color: green;
+}
+article>p {
+    padding: 5px;
+    background-color: #f5cd9d;
+}
+article>a {
+    color: gray;
+}
+
+                /*----ARTICLES END----*/
+
+                /*----CATALOG BEGIN----*/
+main ul>li {
+    width: 300px;
+    background-color: #68bb84;
+    font: bold 24px Georgia, serif;
+    list-style-image: url("../img/icons/marker-clover.png");
+}
+main ul>li>ul>li {
+    width: 220px;
+    background-color: #ddb3c4;
+    font: italic 18px Georgia, serif;
+    list-style-image: url("../img/icons/marker-rose.png");
+    border-bottom: 1px solid darkolivegreen;
+}
+.new_item {
+    background: url("../img/icons/new_1.png") no-repeat right;
+}
+                /*----CATALOG END----*/
+
+                /*----GALLERY BEGIN----*/
+.gallery-bg {
+    background-image: url("../img/square.png");
+}
+figure {
+    display: block;
+    /*float: left;*/
+    margin: 0 350px;
+    padding: 10px;
+    /*background: #7a7a7a;*/
+    /*text-align: center;*/
+}
+/*figcaption {
+    color: #fff; !* Цвет текста *!
+}*/
+figure img {
+    border: 15px solid #68493B;
+}
+figure a img:hover {
+    border: 15px solid transparent;
+}
+                /*----GALLERY END----*/
+
+                /*----FORMS BEGIN----*/
+
+input[type="text"] {
+    width: 150px;
+}
+input[type="text"] {
+    text-transform: capitalize;
+}
+input[type="password"] {
+    width: 250px;
+}
+input[type="email"]:focus {
+    color: #F44336;
+    background-color: black;
+}
+button[type="submit"]:active {
+    background-color: navy;
+    color: white;
+}
+button[type="reset"]:active {
+     background-color: darkred;
+     color: black;
+ }
+input[type="radio"]+label:hover,[type="checkbox"]+label:hover {
+    border: 2px dotted #F44336;
+}
+
+                /*----FORMS END----*/
+
+.foot-main .inner {
+    background-color: #876053;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+                /*----PAGINATION BEGIN----*/
+
+div .center {
+    text-align: center;
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ul.pagination li a.active {
+    background-color: #4153af;
+    color: #ff9234;
+}
+ul.pagination li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+                /*----PAGINATION END----*/

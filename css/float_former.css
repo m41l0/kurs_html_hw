@@ -1,0 +1,68 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 49px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+}
+
+p {
+    margin: 0;
+}
+
+.header-main, .sect-main, .inner {
+    position: relative;
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+/*#logo {*/
+    /*display: block;*/
+    /*width: 150px;*/
+    /*height: 150px;*/
+    /*border: 1px solid pink;*/
+/*}*/
+
+.col {
+    float: left;
+    min-height: 600px;
+    border: 1px solid red;
+}
+
+.right-menu {
+    width: 20%;
+}
+
+.content {
+width: 80%;
+}
+
+.sect-main::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.foot-main {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-width: 1200px;
+    background: lightgray;
+    border: 1px solid red;
+}
+
+.foot-main .inner {
+    min-height: 49px;
+}
