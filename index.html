@@ -4,27 +4,40 @@
     <meta charset="utf-8">
     <title>Главная страница</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <!--<link rel="stylesheet" href="css/float_former.css">-->
+    <link rel="stylesheet" href="css/flex_former.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div class="container">
-    <header><h1>RED IRISH SETTER</h1></header>
-    <div class="table">
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Главная</a></li>
-                <li><a href="articles.html">Статьи</a></li>
-                <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="gallery.html">Галерея изображений</a></li>
-                <li><a href="registration.html">Регистрация</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-        </nav>
-        <main>
-            А здесь пусто пока
-        </main>
-    </div>
-    <footer>&copy; Максим Логинов</footer>
+<div class="main-wrapper">
+    <header class="header-main">
+        <div class="inner">
+            <h1>RED IRISH SETTER</h1>
+        </div>
+    </header>
+    <section class="sect-main">
+        <div class="inner">
+            <nav class="col left-menu">
+                <ul>
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="articles.html">Статьи</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="gallery.html">Галерея изображений</a></li>
+                    <li><a href="registration.html">Регистрация</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <article class="col content">
+                <p>А здесь пусто пока</p>
+            </article>
+        </div>
+    </section>
+    <footer class="foot-main">
+        <div class="inner">
+            &copy; Максим Логинов
+        </div>
+    </footer>
 </div>
 </body>
 </html>
