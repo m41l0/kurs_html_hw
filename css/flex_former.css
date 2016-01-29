@@ -1,3 +1,7 @@
+body {
+    overflow-y: scroll;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -24,17 +28,17 @@ p {
     min-width: 1200px;
 }
 
-.header-main, .sect-main, .foot-main {
+.header-main, .section-main, .footer-main {
     position: relative;
     min-width: 1200px;
 }
 
-.sect-main {
+.section-main {
     display: flex;
     flex-grow: 1;
 }
 
-.sect-main .inner {
+.section-main .inner {
     display: flex;
 }
 
@@ -53,7 +57,8 @@ p {
 /*}*/
 
 .left-menu {
-    width: 20%;
+    min-width: 20%;
+    max-width: 20%;
     flex-grow: 2;
 }
 
@@ -62,7 +67,7 @@ p {
     flex-grow: 8;
 }
 
-.foot-main .inner {
+.footer-main .inner {
     min-height: 49px;
     line-height: 49px;
 }

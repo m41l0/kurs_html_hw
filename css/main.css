@@ -62,14 +62,6 @@ nav.left-menu li a:hover:not(.active) {
 
                 /*----ARTICLES BEGIN----*/
 
-.col-left {
-    float: left;
-    width: 450px;
-}
-.col-right {
-    float: right;
-    width: 450px;
-}
 article h2 {
     margin: 0;
     text-align: center;
@@ -99,20 +91,20 @@ article>a {
                 /*----ARTICLES END----*/
 
                 /*----CATALOG BEGIN----*/
-main ul>li {
+article ul>li {
     width: 300px;
     background-color: #68bb84;
     font: bold 24px Georgia, serif;
     list-style-image: url("../img/icons/marker-clover.png");
 }
-main ul>li>ul>li {
+article ul>li>ul>li {
     width: 220px;
     background-color: #ddb3c4;
     font: italic 18px Georgia, serif;
     list-style-image: url("../img/icons/marker-rose.png");
     border-bottom: 1px solid darkolivegreen;
 }
-.new_item {
+li.new_item {
     background: url("../img/icons/new_1.png") no-repeat right;
 }
                 /*----CATALOG END----*/
@@ -169,7 +161,7 @@ input[type="radio"]+label:hover,[type="checkbox"]+label:hover {
 
                 /*----FORMS END----*/
 
-.foot-main .inner {
+.footer-main .inner {
     background-color: #876053;
     border-top: 1px solid black;
     text-align: center;
